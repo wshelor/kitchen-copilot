@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+<LinearLayout android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:gravity="center">
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:gravity="center" android:layout_marginTop="25dip" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:id="@+id/iSpicesButton" android:cropToPadding="true" android:src="@drawable/guidebookimagespices" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/iSpicesButton" android:textStyle="bold" android:layout_width="wrap_content" android:textColor="#0232cc" android:layout_alignRight="@+id/iSpicesButton" android:gravity="center" android:layout_alignLeft="@+id/iSpicesButton" android:text="Spices" android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_below="@+id/iSpicesButton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:scaleType="fitStart" android:layout_alignRight="@+id/iSpicesButton" android:adjustViewBounds="true" android:id="@+id/iVegetablesButton" android:layout_alignLeft="@+id/iSpicesButton" android:src="@drawable/guidebookimagevegetables" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/iVegetablesButton" android:layout_width="wrap_content" android:textStyle="bold" android:gravity="center"   android:layout_alignLeft="@+id/iVegetablesButton" android:text="Vegetables" android:textColor="#0232cc" android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_marginLeft="50dip" android:layout_alignBottom="@+id/iSpicesButton"  android:layout_width="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:id="@+id/iFruitsButton" android:layout_alignTop="@+id/iSpicesButton" android:src="@drawable/guidebookimagefruit" android:layout_toRightOf="@+id/iSpicesButton" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/iFruitsButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignLeft="@+id/iFruitsButton" android:textColor="#0232cc" android:layout_alignRight="@+id/iFruitsButton" android:gravity="center" android:text="Fruits" android:layout_height="wrap_content" />
+
+        <ImageView android:layout_below="@+id/iFruitsButton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:layout_alignRight="@+id/iFruitsButton" android:adjustViewBounds="true" android:id="@+id/iTipsButton" android:layout_alignLeft="@+id/iFruitsButton" android:src="@drawable/kcguidetabsel" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/iTipsButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignRight="@+id/iTipsButton" android:gravity="center" android:layout_alignLeft="@+id/iTipsButton" android:text="Cooking Terms" android:textColor="#0232cc" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

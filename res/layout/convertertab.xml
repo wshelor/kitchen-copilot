@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+ <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center"> 
+  <Spinner android:prompt="@string/SizeInSpinner" android:layout_height="wrap_content" android:background="@drawable/yellowspinner" android:id="@+id/CategorySpinner" android:layout_width="wrap_content" android:layout_marginTop="10dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>   
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:orientation="horizontal" android:layout_marginTop="35dip" android:layout_below="@+id/CategorySpinner"> 
+    <Spinner android:background="@drawable/yellowspinner" android:layout_width="wrap_content" android:prompt="@string/SizeInSpinner" android:id="@+id/SizeInSpinner" android:layout_height="wrap_content" android:layout_alignParentTop="true"/>
+    <Spinner android:background="@drawable/yellowspinner" android:layout_width="wrap_content" android:layout_marginLeft="50dip" android:prompt="@string/SizeOutSpinner" android:id="@+id/SizeOutSpinner" android:layout_height="wrap_content" android:layout_gravity="left"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:orientation="horizontal" android:layout_marginTop="20dip" android:layout_below="@+id/CategorySpinner">
+    <EditText android:id="@+id/NumIn"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:inputType="numberDecimal" android:textSize="20sp"  android:layout_margin="10dp" android:background="@drawable/yellowoutline">
+    <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_toRightOf="@+id/NumIn" android:layout_toLeftOf="@+id/NumOut"  android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="=" android:layout_alignTop="@+id/NumIn" android:textSize="25sp"  android:gravity="center"  android:textStyle="bold" android:textColor="#b68200" android:layout_alignBottom="@+id/NumIn"/>
+    <EditText android:id="@+id/NumOut"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center" android:inputType="numberDecimal" android:textSize="20sp"  android:layout_margin="10dp" android:background="@drawable/yellowoutline" />
+  </LinearLayout>
+ </LinearLayout>
+</ScrollView>
+
+

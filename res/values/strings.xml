@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, helloTab!</string>
+    <string name="app_name">HelloTab</string>
+    <string name="inputAmount">"0" </string>
+    <string name="ConvertText">"From "</string>
+    <string name="ToText">" to "</string>
+    <string name="HowMany">"How Many Tsp?"</string>
+    <string name="ResultText">""</string>
+    <string name="SizeOut">Lbs</string>
+    <string name="NumOut">0 </string>
+    <string name="RingtonePreferenceTest">0 </string>
+    <string name="BackgroundVisible"> TRUE </string>
+    <string name="SizeApprox">""</string>    
+    <string name="titleMeasurementConversion">Measurement Conversion</string>
+    <string name="CategoryArray">"Choose a Conversion Category:"</string>
+     <string-array name="Category">
+        <item> Volume</item>
+        <item> Weight</item>
+    </string-array>
+    <string name="SizeInSpinner">"Choose a Size:"</string>
+     <string-array name="SizeInArray">
+        <item> Tsp</item>
+        <item> Tbsp</item>
+        <item> Fl. Oz.</item>
+        <item> Cups</item>
+        <item> Pints</item>
+        <item> Quarts</item>
+        <item> Gal</item>
+        <item> ML</item>
+        <item> Liters</item>
+    </string-array>
+       <string name="SizeOutSpinner">"Choose a Size:"</string>
+         <string-array name="SizeOutArray">
+        <item> Tsp</item>
+        <item> Tbsp</item>
+        <item> Fl. Oz.</item>
+        <item> Cups</item>
+        <item> Pints</item>
+        <item> Quarts</item>
+        <item> Gal</item>
+        <item> ML</item>
+        <item> Liters</item>
+    </string-array>
+       <string name="SizeInWeightSpinner">"Choose a Size:"</string>
+         <string-array name="SizeInWeight">
+        <item> Grams</item>
+        <item> Kg.</item>
+        <item> Oz.</item>
+        <item> Pounds</item>
+        <item> Tons</item>
+    </string-array>
+       <string name="SizeOutWeightSpinner">"Choose a Size:"</string>
+         <string-array name="SizeOutWeight">
+        <item> Grams</item>
+        <item> Kg.</item>
+        <item> Oz.</item>
+        <item> Pounds</item>
+        <item> Tons</item>
+    </string-array>
+        
+    <string-array name="RecipeWebsites">
+        <item>AllRecipes.com</item>
+        <item>Epicurious.com</item>
+        <item>Food.com</item>
+        <item>MyRecipes.com</item>
+        <item>SimplyRecipes.com</item>
+        <item>VegWeb.com</item>
+    </string-array>
+    
+    <string-array name="recipewebsite_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    
+</resources>

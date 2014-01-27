@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center">
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:gravity="center" android:layout_marginTop="25dip" android:layout_height="fill_parent">
+        <ImageView android:layout_width="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:id="@+id/EpicuriousButton" android:cropToPadding="true" android:src="@drawable/siteepicurious" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/EpicuriousButton" android:textStyle="bold" android:layout_width="wrap_content" android:textColor="#C10000" android:layout_alignRight="@+id/EpicuriousButton" android:gravity="center" android:layout_alignLeft="@+id/EpicuriousButton" android:text="Epicurious" android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_below="@+id/EpicuriousButton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:scaleType="fitStart" android:layout_alignRight="@+id/EpicuriousButton" android:adjustViewBounds="true" android:id="@+id/FoodComButton" android:layout_alignLeft="@+id/EpicuriousButton" android:src="@drawable/sitefoodcom" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/FoodComButton" android:layout_width="wrap_content" android:textStyle="bold" android:gravity="center"   android:layout_alignLeft="@+id/FoodComButton" android:text="Food.com" android:textColor="#C10000" android:layout_height="wrap_content" android:id="@+id/textView1"/>
+
+        <ImageView android:layout_marginLeft="50dip" android:layout_alignBottom="@+id/EpicuriousButton"  android:layout_width="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:id="@+id/AllRecipesButton" android:layout_alignTop="@+id/EpicuriousButton" android:src="@drawable/siteallrecipes" android:layout_toRightOf="@+id/EpicuriousButton" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/AllRecipesButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignLeft="@+id/AllRecipesButton" android:textColor="#C10000" android:layout_alignRight="@+id/AllRecipesButton" android:gravity="center" android:text="AllRecipes" android:layout_height="wrap_content" />
+
+        <ImageView android:layout_below="@+id/AllRecipesButton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:layout_alignRight="@+id/AllRecipesButton" android:adjustViewBounds="true" android:id="@+id/MyRecipesButton" android:layout_alignLeft="@+id/AllRecipesButton" android:src="@drawable/sitemyrecipes" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/MyRecipesButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignRight="@+id/MyRecipesButton" android:gravity="center" android:textColor="#C10000" android:layout_alignLeft="@+id/MyRecipesButton" android:text="MyRecipes" android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_alignBottom="@+id/VegWebButton"  android:layout_width="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:id="@+id/SimplyRecipesButton" android:layout_alignTop="@+id/VegWebButton" android:src="@drawable/sitesimply" android:layout_alignRight="@+id/EpicuriousButton" android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1"/>
+        <TextView android:layout_below="@+id/SimplyRecipesButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignLeft="@+id/SimplyRecipesButton" android:textColor="#C10000" android:layout_alignRight="@+id/SimplyRecipesButton" android:gravity="center" android:text="Simply Recipes" android:layout_height="wrap_content" />
+
+        <ImageView android:layout_below="@+id/FoodComButton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:layout_alignRight="@+id/AllRecipesButton" android:adjustViewBounds="true" android:id="@+id/VegWebButton" android:layout_alignLeft="@+id/AllRecipesButton" android:src="@drawable/sitevegweb" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/VegWebButton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignRight="@+id/VegWebButton" android:gravity="center" android:textColor="#C10000" android:layout_alignLeft="@+id/VegWebButton" android:text="VegWeb (vegan)" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

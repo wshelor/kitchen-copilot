@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Main Layout of Status Activity -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content" 
+  android:background="#FFFFFF"
+  android:layout_height="fill_parent" >
+<ScrollView   android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" >
+<LinearLayout 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <!-- Ingredient -->
+
+  <!-- Ingredient -->
+  <TextView android:id="@+id/CurrentIngredient"
+  android:textSize="35sp" 
+    android:textColor="#0232cc"
+  android:text="Current Ingredient" 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" 
+  android:layout_margin="10dp"/>
+
+  <TextView android:text="Description:" 
+  android:textSize="20sp" 
+  android:textStyle="bold"
+    android:textColor="#0232cc"
+  android:layout_height="wrap_content" 
+  android:layout_width="wrap_content" android:layout_gravity="center_vertical">
+  </TextView>
+
+  <TextView android:id="@+id/IngredientDescription" 
+  android:text="   " 
+  android:textSize="25sp" 
+    android:textColor="#0232cc"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" android:layout_gravity="center_vertical">
+  </TextView>
+
+  <TextView 
+  android:text="Possible Substitution:"
+  android:textSize="20sp" 
+  android:textStyle="bold"
+    android:textColor="#0232cc"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" android:layout_gravity="center_vertical">
+  </TextView>
+  
+  <!-- Second Text -->  
+  <TextView android:id="@+id/Substitutions" 
+  android:text="   " 
+  android:textSize="25sp" 
+    android:textColor="#0232cc"
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" android:layout_gravity="center_vertical">
+  </TextView>  
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

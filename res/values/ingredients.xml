@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="IngredientCategory">
+	<item>Spices</item>
+	<item>Fruits</item>
+	<item>Vegetables</item>
+</string-array>
+	     <string-array name="SpiceName">
+	    <item>Do you find this app useful?  If so, click here to rate it so others can discover it too!</item>
+        <item>Allspice</item>
+        <item>Alum</item>
+        <item>Anise Seed</item>
+        <item>Basil</item>
+        <item>Bay Leaves</item>
+        <item>Caraway Seed</item>
+        <item>Celery Flakes</item>
+        <item>Celery Salt</item>
+        <item>Celery Seed</item>
+        <item>Chili Powder</item>
+        <item>Chives</item>
+        <item>Cilantro</item>
+        <item>Cinnamon</item>
+        <item>Cloves</item>
+        <item>Cream of Tartar</item>
+        <item>Cumin</item>
+        <item>Curry Powder</item>
+        <item>Dill</item>
+        <item>Fennel Seed</item>
+        <item>Garlic</item>
+        <item>Ginger</item>
+        <item>Mace</item>
+        <item>Marjoram</item>
+        <item>Mustard</item>
+        <item>Nutmeg</item>
+        <item>Onion Powder</item>
+        <item>Oregano</item>
+        <item>Paprika</item>
+        <item>Parsley Flakes</item>
+        <item>Poppy Seed</item>
+        <item>Crushed Red Pepper</item>
+        <item>Peppercorns</item>
+        <item>Rosemary</item>
+        <item>Sage</item>
+        <item>Sesame Seed</item>
+        <item>Tarragon</item>
+        <item>Thyme</item>
+        <item>Turmeric</item>
+    </string-array>
+     <string-array name="SpiceSubstitution">
+	    <item> </item>
+         <item>A mixture of Nutmeg, Cinnamon, and Cloves</item>
+        <item>None, but can often be omitted</item>
+        <item>Ground star anise</item>
+        <item>Tarragon, summer savory</item>
+        <item>An equal amount of thyme</item>
+        <item>Anise or cumin</item>
+        <item>1 c. of chopped celery for 1/2 c. celery flakes</item>
+        <item>An equal portion  of ground celery seeds and salt</item>
+        <item>Minced celery tops</item>
+        <item>New Mexico chili powder or ancho powder</item>
+        <item>Chopped green onion tops</item>
+        <item>Parsley or basil</item>
+        <item>1/4 t. cinnamon extract of 1 t. cinnamon</item>
+        <item>Ground allspice, nutmeg or mace</item>
+        <item>3 x quantity of lemon juice or vinegar</item>
+        <item>None</item>
+        <item>Make your own mixture</item>
+        <item>Tarragon </item>
+        <item>Anise seed</item>
+        <item>Shallots or garlic chives</item>
+        <item>Powdered ginger</item>
+        <item>Nutmeg or allspice</item>
+        <item>A slightly reduced amount of oregano</item>
+        <item>1 Tbsp. prepared mustard</item>
+        <item>Mace</item>
+        <item>1 Tbsp. onion powder=4 Tbsp. chopped onion</item>
+        <item>Marjoram or dried Italian seasoning</item>
+        <item>A reduced amount of ancho powder</item>
+        <item>1 tsp. = 1 tbsp. fresh, chopped parsley</item>
+        <item>Sesame seeds</item>
+        <item>A reduced amount of cayenne powder</item>
+        <item>Ground pepper</item>
+        <item>Dried savory, tarragon or thyme</item>
+        <item>12 leaves fresh = 1 tsp. dried</item>
+        <item>Pumpkin seeds or finely chopped nuts</item>
+        <item>Margoram or oregano</item>
+        <item>1 fresh sprig = 1/2 tsp. dried</item>
+        <item>None</item>
+    </string-array>
+     <string-array name="SpiceDescription">
+         <item> </item>
+        <item>Allspice comes from a plant found natively in Central America.</item>
+        <item>Alum is a chemical compound used as a pickling agent.</item>
+        <item>Anise is a member of the parsley family, and its seeds have a licorice flavor.</item>
+        <item>Basil is a very widely used herb that has a fresh quality.</item>
+        <item>Bay leaves are typically put into soups and stews whole and then removed before the dish is served.</item>
+        <item>Caraway is a member of the parsley family, and its seeds are quite aromatic.</item>
+        <item>Celery flakes are made when fresh celery is dehydrated and then flaked.</item>
+        <item>Celery salt is a mixture of ground celery seeds and salt</item>
+        <item>Celery seed is very strongly flavored and should be used sparingly.</item>
+        <item>Chili powder is a powder made from ground chilies and, quite often, other ingredients such as salt or cumin.</item>
+        <item>Chives are a member of the onion family, and their green tops are used to decorate and flavor foods.</item>
+        <item>Cilantro is the leaf of the coriander plant with a very strong odor and flavor.</item>
+        <item>Cinnamon is a ground spice with a sweet, spicy flavor commonly used in savory dishes as well as baking.</item>
+        <item>Cloves are the unopened buds of the clove tree and are commonly used in both savory and sweet dishes.</item>
+        <item>Cream of tartar is a by-product of wine production and is often used to stabilize egg whites in meringues.</item>
+        <item>Cumin is a seed that is often toasted and ground and used in many Mexican, Indian and Malaysian dishes.</item>
+        <item>Curry powder is a spice mixture of East Asian origins, often combining cumin, tumeric and other spices.</item>
+        <item>Dill is an aromatic herb with feathery fronds that can be used fresh or dried.</item>
+        <item>Fennel seeds have a licorice or anise flavor, and are commonly used in both sweet and savory applications.</item>
+        <item>Garlic is a pungent ingredient that is very commonly used in many different types of cooking.</item>
+        <item>Ginger is a fibrous root that is very commonly used in Asian cooking.</item>
+        <item>Mace is the dried membrane that surrounds the nutmeg.</item>
+        <item>Marjoram is a member of the oregano family, and it is used in many Mediterranean dishes.</item>
+        <item>Dry mustard is mustard seeds that have been dried and powdered. It has a hot, pungent flavor.</item>
+        <item>Nutmeg has a sweet, earthy flavor and is superior when bought whole and freshly ground as needed.</item>
+        <item>Onion powder is dried, powdered onion.</item>
+        <item>Oregano is an herb that is used in many Mediterranean and Mexican dishes. It can be quite strong.</item>
+        <item>Paprika is a powder made from a mild, sweet chile that is dried and ground.</item>
+        <item>Parsley flakes are the dried form of the parsley plant. It has less flavor than the fresh version.</item>
+        <item>Poppy seeds are often used in breads and pastries.</item>
+        <item>Crushed red pepper is also called "red pepper flakes," and is very hot and spicy.</item>
+        <item>Peppercorns are probably the world\'s most common spice. They are best when bought whole and ground.</item>
+        <item>Rosemary pairs well with baked goods and meats. It is commonly used in Mediterranean cooking.</item>
+        <item>Sage is a savory herb that pairs well with poultry.</item>
+        <item>Sesame seeds come in many different varieties, and they have a nutty flavor which is used in many dishes.</item>
+        <item>Tarragon is a highly aromatic herb often used in soups and meat dishes. It has a slight licorice flavor.</item>
+        <item>Thyme is a common, aromatic herb often paired with poultry.</item>
+        <item>Tumeric is often dried and powdered and often used in Indian dishes to impart a bright yellow color.</item>
+    </string-array>
+	     <string-array name="FruitName">
+		<item>Do you find this app useful?  If so, click here to rate it so others can discover it too!</item>
+        <item>Apple</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Blackberries</item>
+        <item>Blackcurrants</item>
+        <item>Blueberries</item>
+        <item>Boysenberries</item>
+        <item>Breadfruit</item>
+        <item>Cantaloupe</item>
+        <item>Cherimoya</item>
+        <item>Cherries</item>
+        <item>Chinese Pear</item>
+        <item>Cranberries</item>
+        <item>Dates</item>
+        <item>Figs</item>
+        <item>Gooseberries</item>
+        <item>Grapefruit</item>
+        <item>Grapes</item>
+        <item>Guava</item>
+        <item>Kiwi</item>
+        <item>Lemon</item>
+        <item>Lime</item>
+        <item>Loganberries</item>
+        <item>Lychee</item>
+        <item>Mango</item>
+        <item>Mulberries</item>
+        <item>Nectarines</item>
+        <item>Olives</item>
+        <item>Oranges</item>
+        <item>Passionfruit</item>
+        <item>Peach</item>
+        <item>Pear</item>
+        <item>Persimmon</item>
+        <item>Pineapple</item>
+        <item>Plum</item>
+        <item>Pomegranate</item>
+        <item>Raspberries</item>
+        <item>Starfruit</item>
+        <item>Strawberries</item>
+        <item>Tomatoes</item>
+        <item>Watermelon</item>
+    </string-array>
+    	     <string-array name="FruitDescription">
+    	<item>  </item>
+        <item>The apple is one of the most common fruits in the world; more than 60 million tons are produced annually, with around 40% being grown in China.</item>
+        <item>Originally found in Mexico, the Avocado is common in Vegetarian dishes because of the high amount of monosaturated fats present in the fruit.</item>
+        <item>The Banana is a tropical fruit that is high in starch, and depending on its cultivation can vary in tase from starchy to sweet.</item>
+        <item>Blackberries are large, succulent berries that lend themselves well to jams or cobblers.</item>
+        <item>Black currants are small, dark berries that are not commonly found in America outside jams and jellies.</item>
+        <item>Grown on small shrubs, blueberries are very high in antioxidants and suitable for both cooking and eating fresh.</item>
+        <item>Boysenberries have a sweet-tart flavor and are a cross between a raspberry and a loganberry.</item>
+        <item>Breadfruit is a starchy fruit with a low sugar content that is difficult to find in the U.S. It is often roasted and eaten as a vegetable.</item>
+        <item>Cantaloupe is a large, sweet melon that is commonly eaten fresh.</item>
+        <item>Cherimoya is a green fruit with sweet, creamy white flesh. It tastes a bit like pineapple.</item>
+        <item>Cherries are common stone fruits that range in color from yellow to dark red.</item>
+        <item>Also called Asian Pears or Apple Pears, Chinese Pears are very crunchy and slightly sweet.</item>
+        <item>Grown in bogs, the cranberry is very tart and related to the blueberry. It is very high in vitamin C.</item>
+        <item>Dates originate in the Middle East and are one of the world\'s earliest recorded fruits. They are soft and very, very sweet.</item>
+        <item>Figs are actually a multiple fruit in which the seeds and the flower of the tree grow together to form a single, bulbous mass. The fig is very sweet and often dried.</item>
+        <item>Gooseberries are small, green, sweet-tart berries that are related to currants.</item>
+        <item>The Grapefruit is a hybrid of the Pomelo and the Sweet Orange.  The pulp can be red, white, or pink.  Its flavor ranges from acidic and bitter to sweet and tart.</item>
+        <item>The Grape is a berry that grows on vines.  It grows in clusters, with each cluster containing 15 to 300 grapes.  More than 70 percent of the world\'s grape production is used for wine, with less than 30 percent being eaten as fruit and 2 percent being dried to raisins.</item>
+        <item>Guava are semi-tropical fruits that are round or oval in shape.  It is often eaten fresh, in a salad, as juice, candies, or jams.</item>
+        <item>The Kiwifruit is a fruit with a dull, brown-green skin and bright green insides.  Though the name originated in New Zealand during the 1950s for marketing purposes, the primary exporter is currently Italy.</item>
+        <item>A Lemon is approximately 5% citric acid, resulting in a sour flavor, though they have many other uses as well- such as cleaning around the kitchen.  In the ancient past, lemons were used as antidotes for various poisons.</item>
+        <item>The lime is used in cooking both for the acidity of its juice and the floral aroma of its zest.  They are high in vitamin C, and were used along with lemons by the British Navy to fight scurvy during long seafaring journeys.</item>
+        <item>The Loganberry is a hybrid of the Blackberry and the Raspberry.  Originally cultivated as an accident, it has since been cultivated globally with some success.</item>
+        <item>The Lychee is a tropical fruit native to china with a soft, whitish pulp has a sweet flavor that is best if eaten fresh.</item>
+        <item>Mangoes are a fragrant, tropical fruit with a large pit in the middle. They are one of the most commonly eaten fruits in the world.</item>
+        <item>Mulberries are commonly found growing wild. They have a sweet flavor and many seeds.</item>
+        <item>Nectarines are very similar to peaches in both flavor and appearance, but they have a smooth skin. They are not a hybrid but a unique fruit to themselves.</item>
+        <item>There are many, many different varieties of olives, but all are cured in a brine of some kind before being sold.</item>
+        <item>The orange is a citrus fruit that is among the most popular in the United States. They have a sweet-tart flavor and are very juicy.</item>
+        <item>Passionfruit has a very soft pulp when ripe and has a rich, tropical flavor and aroma.</item>
+        <item>Peaches are a stone fruit with a sweet flesh and fuzzy skin.</item>
+        <item>The pear is a sweet, slightly grainy fruit that is very juicy when ripe.</item>
+        <item>Persimmons are bright orangey-red, and can be either very soft or firm depending on the variety. When ripe, they are sweet and can be used in baking.</item>
+        <item>This sweet, juicy tropical fruit can be eaten in a variety of ways, including fresh, grilled or in baked goods.</item>
+        <item>Plums are succulent stone fruits that are high in potassium and vitamin A.</item>
+        <item>The pomegranate is a fruit filled with edible seeds that are surrounded by a sweet, juicy, red pulp. They are very high in antioxidants.</item>
+        <item>Raspberries are small, sweet, red berries with many seeds.</item>
+        <item>This bright yellow fruit has a juicy, sweet-tart flavor and an unusual five-sided appearance.</item>
+        <item>Bright red and sweet, strawberries are one of the most popular berries in the United States. They are very versatile.</item>
+        <item>Tomatoes are most commonly eaten in savory dishes like a vegetable, but they are actually fruits. There are hundreds of different varieties.</item>
+        <item>Watermelon is a large melon with bright red-pink flesh. It contains a very high water content and is very refreshing.</item>
+   </string-array> 
+	<string-array name="FruitChoice">
+    	<item>  </item>
+	    <item>The best apples will smell fresh, rather than old.  Check and see if the apples are free of gouges and bruises.</item>
+        <item>A good avocado will yield very gently when pressure is applied.</item>
+        <item>A green Banana is not quite ripe yet, while a banana with brown speckling is overripe (though when baking, overripe bananas are best)</item>
+        <item>Choose firm, dark, plump berries that are free of mold. Peak growing season is May through September.</item>
+        <item>Small, glossy currants are best. If buying currants on the vine, avoid ones that are shriveled and dried. Peak season is June to August or December to February.</item>
+        <item>Choose plump, firm berries that are not shriveled and free of mold. Available May to October in the U.S. and year-round in Chile.</item>
+        <item>Plump berries with uniformity in color are best. Avoid those that are leaking, moldy, or stained. Peak season is May through August.</item>
+        <item>Breadfruit is ripe when it turns a yellowish green color and starts oozing sticky sap. If cooking, one should choose a breadfruit that is firm yet yielding to the touch.</item>
+        <item>The stem end should give with slight pressure and have a clean, smooth indentation. A good cantaloupe is symmetrical with no lumps or soft spots.</item>
+        <item>Choose fruits with a somewhat gray-looking skin and plenty of give to pressure. Avoid hard or overly mushy fruits.</item>
+        <item>Choose plump, firm berries with green stems. Avoid mushy, leaking cherries.</item>
+        <item>Choose fruits that are round and firm to the touch.</item>
+        <item>Choose deep red, firm berries. Avoid ones that are mushy, discolored or shriveled. Peak season is October through December.</item>
+        <item>Soft, lucious fruits should be chosen. Avoid underripe dates as they can be very astringent.</item>
+        <item>Ripe figs should be smooth and firm but give slightly to pressure. Avoid figs that are either hard or very soft and mushy.</item>
+        <item>The best gooseberries are firm with a somewhat fuzzy skin. Peak seasons are November to January in New Zealand and May to August in America.</item>
+        <item>Choose fruits that seem heavy for their size with smooth skins.</item>
+        <item>Choose grapes that are plump, firmly attatched to the stem, and not mushy, browning, or shriveled.</item>
+        <item>Ripe guavas are very fragrant and yield slightly to pressure.</item>
+        <item>Select a kiwifruit with an unbroken, unbruised skin that yields to gentle pressure.</item>
+        <item>Choose fragrant,  bright yellow lemons with a thin skin. Avoid lemons with bruises or spots.</item>
+        <item>Choose limes that that are bright green, smooth skinned and heavy for their size. Some limes have small brown patches on them, but this is purely cosmetic and does not affect flavor. Avoid very hard limes.</item>
+        <item>Peak season is mid-June through mid-July. Choose berries that are vibrantly colored.</item>
+        <item>Look for lychees with pretty pink skin that give a little when pressed gently with the thumb. Avoid too-soft or green lychees.</item>
+        <item>Choose a plump, fragrant mango that is heavy for its size. You should be able to indent it slightly with your thumb. Avoid mangoes that are mushy, green or have brown spots.</item>
+        <item>Succulent, full berries should be selected.</item>
+        <item>Ripe nectarines are fragrant and yield slightly to the touch. Avoid fruits with wrinkled skin or bruises.</item>
+        <item>There are many different varieties of olives ranging from green to black with many kinds in between. See which ones are your favorite!</item>
+        <item>Pick oranges that are firm and heavy for their size.</item>
+        <item>Choose fruits with wrinkly, dark purple skin.</item>
+        <item>Avoid peaches that are green, bruised or wrinkled. Ripe peaches are soft to the touch and fragrant.</item>
+        <item>Look for firm, unbruised fruit that give slightly at the stem end to gentle pressure.</item>
+        <item>There are two main varieties of persimmon, the fuyu and the hachiya. For the fuyu persimmon, choose those that yield to gentle pressure. The hachiya persimmon is bitter until very ripe, so these should be chosen when the flesh is nearly liquid.</item>
+        <item>Look for fragrant, heavy and symmetrical pinapples with leaves that are fresh and green.</item>
+        <item>Ripe plums are fragrant and give slightly to pressure. Avoid plums that have soft spots or are wrinkled.</item>
+        <item>When ripe, pomegrantes become either a dark red or a bright red. If you are able to scratch the skin with your fingernail and gentle pressure, then it is ripe.</item>
+        <item>Choose plump, fragrant, bright red berries free of mold. Peak season is June through September.</item>
+        <item>Ripe starfruit should be mainly bright yellow with just tinges of light green and, many  times, brown along the ridges of the fruit. They should be firm to the touch.</item>
+        <item>Smaller berries usually have a better flavor than larger berries. Choose brightly colored berries with a strong scent. Peak season is April through June.</item>
+        <item>Choose firm, fragrant, deeply colored tomatoes that give slightly to gentle palm pressure. Avoid tomatoes that are wrinkled or blemished.</item>
+        <item>The skin of a watermelon should be dull, not shiny. When slapped, it should be hollow-sounding. Avoid melons with a flat side.</item>
+   </string-array> 
+
+	<string-array name="VegetableName">
+    	<item>Would you like an ad-free experience?  Click here to check out Kitchen Copilot Gold!</item>
+	    <item>Alfalfa sprouts</item>
+        <item>Artichoke</item>
+        <item>Asparagus</item>
+        <item>Bamboo Shoots</item>
+        <item>Beetroot (beets)</item>
+        <item>Bok Choy</item>
+        <item>Broccoli</item>
+        <item>Brussel Sprouts</item>
+        <item>Butternut Squash</item>
+        <item>Cabbage</item>
+        <item>Carrots</item>
+        <item>Cauliflower</item>
+        <item>Celeriac (Celery Root)</item>
+        <item>Celery</item>
+        <item>Chinese Cabbage (Napa)</item>
+        <item>Corn</item>
+        <item>Cucumber</item>
+        <item>Daikon Radish</item>
+        <item>Eggplant</item>
+        <item>Fennel</item>
+        <item>Green Beans</item>
+        <item>Green Pepper</item>
+        <item>Jicama</item>
+        <item>Kale</item>
+        <item>Leek</item>
+        <item>Lettuce</item>
+        <item>Lima Bean</item>
+        <item>Mushroom</item>
+        <item>Okra</item>
+        <item>Onions</item>
+        <item>Parsnips</item>
+        <item>Peas</item>
+        <item>Potatoes</item>
+        <item>Pumpkin</item>
+        <item>Radish</item>
+        <item>Rapini</item>
+        <item>Spinach</item>
+        <item>Spaghetti Squash</item>
+        <item>Summer Squash</item>
+        <item>Sweet Potatoes</item>
+        <item>Swiss Chard</item>
+        <item>Taro</item>
+        <item>Turnip</item>
+        <item>Winter Squash</item>
+    </string-array>
+     <string-array name="VegetableChoice">
+    	<item>  </item>
+         <item>Look for sprouts with bright green tops. Avoid any that are mushy or brown.</item>
+        <item>If an artichoke is fresh, they should feel heavy for their size, and the leaves should squeak when rubbed against each other. </item>
+        <item>Look for asparagus where the buds are tightly closed and the stalks are rich green.</item>
+        <item>If buying fresh, look for firm texture and even coloration.</item>
+        <item>Look for deep-red colored beets with fresh-looking leaves.  Avoid those with extremely long roots or scaly surfaces.</item>
+        <item>Choose bok choy with firm stalks and crisp leaves.</item>
+        <item>Look for broccoli with firm stalks that aren\'t too tough, and with tops that are dark green.</item>
+        <item>Look for bright green brussel sprouts with tightly-packed leaves.</item>
+        <item>Look for smooth-skinned squashes that are heavy for their size. Avoid any with dark, mushy spots.</item>
+        <item>Choose a cabbage with tightly packed leaves that is heavy for its size.</item>
+        <item>Pick long, narrow, crisp carrots that aren\'t bendable or cracked.</item>
+        <item>Choose firm and heavy cauliflower without brown spots.</item>
+        <item>Pick firm roots that feel heavy for their size. Avoid any discoloration.</item>
+        <item>Buy firm stalks that have bright green leaves.</item>
+        <item>Look for cabbages with tightly packed, unblemished leaves.</item>
+        <item>Look for corn with tightly wrapped husks that are bright green and slightly damp. The stem end should also be moist.</item>
+        <item>Pick firm, dark green cucumbers without soft spots or yellow streaks.</item>
+        <item>Pick smooth, firm radishes that gleam.</item>
+        <item>Choose glossy, unblemished eggplants that have no soft spots.</item>
+        <item>Pick fennel bulbs with bright green tops.</item>
+        <item>Look for bright green beans with smooth surfaces. If a bean can be bent at a 90 degree angle without snapping, it should not be eaten.</item>
+        <item>Pick firm, brightly colored peppers without soft spots. The skin of the peppers should be smooth and shiny.</item>
+        <item>Choose large, firm jicamas with no blemishes.</item>
+        <item>Choose kale that is dark green in color and has no withering.</item>
+        <item>Pick leeks that are free of brown spots and have bright green tops.</item>
+        <item>Look for tightly packed lettuce that is heavy for its size. Avoid any that has brown or slimy edges.</item>
+        <item>Typically, lima beans are sold canned. If not, look for vibrantly colored beans free of blemishes.</item>
+        <item>Pick plump mushrooms with tightly closed caps. Avoid those with visible gills (in the case of button mushrooms).</item>
+        <item>With Okra, it is best to buy medium-sized pods that are bright green and have as few spots, bruises, or scars as possible.</item>
+        <item>Choose onions that are free of brown spots or discoloration. Typically, white onions are sharper in flavor than yellow onions.</item>
+        <item>Choose firm parsnips that are not brown or withered. Typically, small to medium sized parsnips are sweeter and less fibrous than larger ones.</item>
+        <item>If in pod form, choose pods that are plump, vibrantly green and unblemished.</item>
+        <item>Choose firm, unblemished potatoes without sprouting.</item>
+        <item>Pick firm, smooth-skinned pumpkins that feel heavy for their size. Typically, the smaller the pumpkin the more flesh it has.</item>
+        <item>Pick smooth, firm radishes. Avoid any that are cracked or feel spongy.</item>
+        <item>Choose rapini with crisp, upright, bright green leaves.</item>
+        <item>Pick spinach with crisp, dark green leaves. Avoid wilted or discolored spinach.</item>
+        <item>Pick vibrantly colored squash with shiny skin and is heavy for its size.</item>
+        <item>Choose summer squash with a glossy skin free of blemishes or mushy spots.</item>
+        <item>Choose unblemished sweet potatoes. Small to medium sized sweet potatoes will be more tender.</item>
+        <item>Choose swiss chard that is dark green and crisp with vibrantly colored stems.</item>
+        <item>Pick taro roots that are heavy for their size.</item>
+        <item>Choose turnips that are small but heavy for their size. The roots should be firmly attatched.</item>
+        <item>Pick squashes that are unblemished and heavy for their size.</item>
+    </string-array>
+     <string-array name="VegetableDescription"> 
+    	<item>  </item>
+         <item>Alfalfa sprouts are very tender and flavorful. They are very nutritious and pair well with sandwiches and salads.</item>
+        <item>Artichokes are often boiled or cooked. Usually the leaves are broken off and the centers are often eaten or used in spreads or sauce.</item>
+        <item>Asparagus, which is part of the lily family, grows in long, tender spears. This vegetable is excellent steamed.</item>
+        <item>Bamboo shoots are the small, tender shoots of the bamboo plant and are used in Asian cuisine.</item>
+        <item>Beets- also called Beetroot in the UK- are roots that are often boiled, steamed, or cooked.  The leaves can be steamed or stir-fried.</item>
+        <item>Bok choy is a type of Chinese cabbage used in many Asian stir fried dishes.</item>
+        <item>Broccoli is an extremely nutritious vegetable with dark green stalks and tops.</item>
+        <item>Brussel sprouts look like miniature cabbages and grow on a tall stalk.</item>
+        <item>Butternut squash is a sweet winter squash with a bright orange flesh. This squash lends itself very  well to baking.</item>
+        <item>Cabbage is a large, round, leafy vegetable commonly eaten around the world.</item>
+        <item>Carrots are a long root vegetable that are a member of the parsley family.</item>
+        <item>Cauliflower is related to broccoli and cabbage and is high in potassium, iron and zinc.</item>
+        <item>This large root is related to, and has the flavor of, celery. It is quite delicious when peeled, boiled, and mashed with potatoes or added to soups.</item>
+        <item>Celery is a crunchy stalk vegetable which can make a healthy snack.</item>
+        <item>Napa cabbage is long with ruffled edges. It is very popular in Asian cooking, such as stir-fries and dumplings.</item>
+        <item>Corn is a very popular vegetable in the U.S. It is often boiled on the cob.</item>
+        <item>Cucumbers are related to gourds and are thin-skinned, crisp and juicy. They are often used in salads for their refreshing taste.</item>
+        <item>Daikons are large, sweet radishes that are crisp and juicy.</item>
+        <item>There are many varieties of eggplant, but they all have a glossy skin and white flesh with seeds. Eggplants are very versatile and can be grilled, fried, baked or used in soups or stews.</item>
+        <item>The bulb of the fennel plant is crisp and has a light, sweet licorice flavor. It is a popular ingredient in soups and stews.</item>
+        <item>Green beans are long, slender and crisp. They can be boiled or steamed.</item>
+        <item>Green bell peppers have the sharpest flavor. For sweeter peppers, look for red, yellow or orange bell peppers.</item>
+        <item>Jicama is a root vegetable that, once peeled, is sweet, juicy and crisp. It is an excellent snack vegetable.</item>
+        <item>Kale is a leafy green vegetable belonging to the cabbage family. It is highly nutritious and has a somewhat sharp flavor.</item>
+        <item>Leeks are a member of the garlic and onion family, but they have a much milder and more subtle flavor. They are often used in soups or as a side vegetable</item>
+        <item>A leafy green vegetable, lettuce is very popular in the U.S. in salads and comes in quite a few varieties. Typically, the darker green the lettuce, the more nutritious it is.</item>
+        <item>Lima beans are large, buttery beans that are typically eaten as a side dish.</item>
+        <item>Mushrooms are fungi that are sold in hundreds of varieties.</item>
+        <item>Okra is a green pod vegetable that is popular in the southern U.S.</item>
+        <item>Onions are one of the most popular aromatic vegetables. They come in many varieties with varying degrees of pungency.</item>
+        <item>Parsnips are sweet tasting root vegetables that look like white carrots.  It is very versatile and can be used in soups, stews, or boiled and mashed.</item>
+        <item>Peas are a legume that grow in a long pod. The are a very popular vegetable in soups and side dishes.</item>
+        <item>Potatoes are tubers that have a very mild flavor and high starch content. There are many varieties of potato.</item>
+        <item>Pumpkins are a sweet winter squash that are excellent baked as well as boiled and made into pies. They are highly nutritious.</item>
+        <item>Radishes come in many varieties, but they are all crisp with a slightly peppery bite.</item>
+        <item>Rapini is a member of the turnip family that has a complex, nutty taste and high nutritional value.</item>
+        <item>Spinach is a dark green leafy vegetable that is high in nutritional value. Baby spinach or flat spinach is typically more tender than curled spinach.</item>
+        <item>Spaghetti squash is a unique winter squash. When cooked, the flesh falls away in ribbons that resemble pasta. It can be served as a more nutritious substitute for spaghetti.</item>
+        <item>Summer squash is a tender vegetable that is harvested before the rind hardens. Some of the most popular varieties are zucchini, yellow squash, and patty pan.</item>
+        <item>Sweet potatoes are a sweet tasting tuber that are popular when baked, boiled, mashed, or made into fries or pies.</item>
+        <item>Swiss chard is a leafy vegetable that tastes similar to spinach. The stems are very tough, so they are often removed.</item>
+        <item>Taro is a starchy tuber that is slightly sweet in taste. It is often used in soups or stews.</item>
+        <item>Turnips are a root vegetable with a delicate, slightly sweet and slightly peppery flavor. They are often used in soups and stews.</item>
+        <item>Winter squashes have a thick rind and typically have sweet tasting flesh. Some of the most common varieties are pumpkins, acorn, butternut and delicata.</item> 
+    </string-array>
+     <string-array name="TipName">
+        <item>Would you like an ad-free experience?  Click here to check out Kitchen Copilot Gold!</item>
+		<item>Al Dente</item>
+        <item>Bake</item>
+        <item>Basting</item>
+        <item>Batter</item>
+        <item>Beat</item>
+        <item>Bind</item>
+        <item>Blacken</item>
+        <item>Blanch</item>
+        <item>Blend</item>
+        <item>Boil</item>
+        <item>Braise</item>
+        <item>Broil</item>
+        <item>Broth (or Stock)</item>
+        <item>Brown</item>
+        <item>Butterfly</item>
+        <item>Caramelize</item>
+        <item>Chop</item>
+        <item>Coat</item>
+        <item>Condiment</item>
+        <item>Core</item>
+        <item>Cream</item>
+        <item>Crimp</item>
+        <item>Cube</item>
+        <item>Dash</item>
+        <item>Deep-fry</item>
+        <item>Deglaze</item>
+        <item>Dice</item>
+        <item>Dollop</item>
+        <item>Dot</item>
+        <item>Dough</item>
+        <item>Dredge</item>
+        <item>Drippings</item>
+        <item>Drizzle</item>
+        <item>Dust</item>
+        <item>Fillet</item>
+        <item>Fold</item>
+        <item>Fry</item>
+        <item>Garnish</item>
+        <item>Glaze</item>
+        <item>Grate</item>
+        <item>Grease</item>
+        <item>Grill</item>
+        <item>Grind</item>
+        <item>Julienne</item>
+        <item>Knead</item>
+        <item>Marinade</item>
+        <item>Marinate</item>
+        <item>Meringue</item>
+        <item>Mince</item>
+        <item>Moisten</item>
+        <item>Poach</item>
+        <item>Pressure Cook</item>
+        <item>Puree</item>
+        <item>Reduce</item>
+        <item>Roast</item>
+        <item>Saute</item>
+        <item>Scald</item>
+        <item>Score</item>
+        <item>Season</item>
+        <item>Set</item>
+        <item>Shred</item>
+        <item>Sift</item>
+        <item>Simmer</item>
+        <item>Skim</item>
+        <item>Steam</item>
+        <item>Steep</item>
+        <item>Stewing</item>
+        <item>Stir-fry</item>
+        <item>Toss</item>
+        <item>Unleaven</item>
+        <item>Whip</item>
+        <item>Whisk</item>
+        <item>Zest</item>
+    </string-array>
+     <string-array name="TipDescription">
+    	<item>  </item>
+        <item>Al Dente is a term used to describe pasta, risotto, and vegetables that have been cooked until there is only very slight resistance.</item>
+		<item>Baking is a technique of cooking food by prolonged heating.  Baking an object evaporates the moisture and concentrates flavor, as well as bringing about certain chemical reactions.</item>
+		<item>Basting is the process of adding juices to a dish as it is roasting.  Its purpose is to add flavor to the dish and keep it from drying out.</item>
+		<item>A batter is a mixture of flour, fat, and other liquids that is thin enough in its consistency to require some kind of container to hold its shape.</item>
+		<item>Beating is a method of homogenizing a mixer by whipping it with an instrument until it has a consistent texture.</item>
+		<item>Binding means adding an egg or thick sause to hold ingredients together while cooking.</item>
+		<item>Blackening is a method of cooking an ingredient until the outside is charred.</item>
+		<item>Blanching is a term that means boiling an item temporarily to assist in the removal of skin or peel.  Certain fruit can be peeled easily after placed in boiling water for less than a minute, then cold water for the same amount of time.</item>
+		<item>Blending is mixing two or more ingredients together until they have an equal distribution.</item>
+		<item>Boiling refers to cooking a dish in water that is boiling, as evidenced by rapid bubbling.  Boiling occurs in pure water at 212 degrees Fahrenheit (100 Celsius), though this temperature is lowered when salt is added.</item>
+		<item>Braise is a cooking method in which a dish is first seared on high heat, then cooked slowly with a low simmer, often in a small amount of liquid.</item>
+		<item>While most cooking methods take place over a heat source, broiling is cooking a dish directly under the heat source.</item>
+		<item>Broth is the term for a liquid made by gently cooking meat, seafood, or vegetables in liquid (often water).</item>
+		<item>Browning is a term that means quickly cooking a dish at the beginning or end of meal preparation, often for the purpose of adding color or flavor to a dish</item>
+		<item>Butterflying is a method of cutting a dish open down the center without separating the different sides.</item>
+		<item>Caramelizing is the process of melting sugar in a dish, often by using a direct flame as seen in the preparation of crème brulee.  </item>
+		<item>To chop is to cut the ingredient into irregular pieces; the size will be specified if it is important.</item>
+		<item>To coat means to cover the food evenly with the specified ingredient, often flour, glaze, sauce, or icing.</item>
+		<item>A condiment is a spice, seasoning, or sauce, often with little nutritional value, whose purpose is to add flavor to meat or other dishes.</item>
+		<item>Coring is the process of removing the non-edible portions of fruits, such as pineapples or apples.</item>
+		<item>Cream, a term often used in baking, means to beat ingredients until light and fluffy.  This method is used to infuse the mix with air, which will later bring about height in cookies or cakes.</item>
+		<item>The process of sealing the edges of a pie crust, both for decorative purposes and to seal together two different crusts.</item>
+		<item>To cut an ingredient into small pieces with six even sides.</item>
+		<item>A dash is a measurement often suggested to be a small pinch of a spice or ingredient; if measuring, use slightly less than 1/8 of a teaspoon.</item>
+		<item>Deep-frying is a method of cooking using enough hot oil or fat to completely submerge the item being cooked. </item>
+		<item>Deglazing is the process of adding a liquid (usually wine or stock) to the bottom of a pan to remove any browned bits of food.  The resulting mixture often becomes a part of the sauce to accompany the food cooked. </item>
+		<item>Dicing is the process of cutting food into tiny cubes</item>
+		<item>A Dollop is a term used to denote a very small portion of an item.</item>
+		<item>Dotting is the method of scattering small amounts of an item (such as butter) over an entire dish.  The purpose of dotting is often to allow for more even cooking.</item>
+		<item>A dough is a mixture of ingredients usually including flour and a leavening agent which, unlike batter, is too think to pour, and can be kneaded by hand.</item>
+		<item>Dredging is the process of lightly coating a dish with an ingredient (such as sugar or flour) often as preparation for frying.</item>
+		<item>Drippings are the melted fat and juices that gather at the bottom of a pan after a meat is cooked.  These are often used as bases for other dishes.</item>
+		<item>Drizzling is pouring a liquid in a light, slow trickle over a food.</item>
+		<item>To dust a dish is to lightly coat it in a powdered ingredient, such as sugar or flour.</item>
+		<item>To Fillet (from the Frech filet) means to remove the bones from a piece of meat or fish, which is then described as a fillet.</item>
+		<item>Folding is a process of combining a lighter ingredient with a heavier ingredient by spreading the lighter one on top of the heavier, then cutting a knife or spatula through the mixtures in lines until they are mixed.</item>
+		<item>Frying is the process of cooking in hot fat over medium or high heat.  When enough fat is used to submerge the dish, it is referred to as deep-frying.</item>
+		<item>A Garnish is a decorative, edible compliment often placed under, around, or on a dish.</item>
+		<item>A Glaze is a thin, glossy coating brushed or poured on the outside of a dish.</item>
+		<item>To grate is to shred an ingredient (often Cheese) into fine particles or shreds, often by rubbing against a serrated board.</item>
+		<item>Grease can refer to either thin, rendered animal or vegetable fat, or the process of applying such fat to the surface of a dish before cooking to prevent the dish prepared from sticking.</item>
+		<item>Grilling is the term for preparing food on a metal grate (also called a grill) over hot coals or another heat source.</item>
+		<item>Grinding is the process of reducing food into small particles, often through the use of machinery, such as a food processor or coffee grinder.</item>
+		<item>A Julienne cut is a culinary term for when a dish, such as carrots, is cut into long strips.</item>
+		<item>Kneading is a technique of mixing and working dough that homogenizes it as well as preparing the dough to rise.  If kneading by hand, press the dough, fold it, then turn it.  Repeat for 5-15 minutes.</item>
+		<item>A marinade is a seasoned liquid, usually containing an acidic element as well as herbs and spices.  An item soaked in a marinade takes on its flavor and the acid tenderizes the item.</item>
+		<item>Marinate is the term for soaking an item of food, such as meat or fish, in a marinade.  As many marinades are acidic, marinating should never be done in aluminum containers.</item>
+		<item>Meringue a mixture of stiffly beaten egg whites and granulated sugar.  For the sugar to mix properly, it must be added slowly while beating the egg whites.</item>
+		<item>To mince is to cut food into very small pieces.   Minced is smaller than chopped.</item>
+		<item>To Mosten an ingredient means to add enough water to make it damp, but not enough to make it wet. </item>
+		<item>Poaching is cooking an ingredient in a liquid that is kept just under boiling point.  </item>
+		<item>Pressure cooking is a recent development in which high pressure causes food to cook much faster and retain its nutritional value.  Special pressure cookers can be used for canning.</item>
+		<item>To Puree is to grind or mash a food into a smooth, thick consistency.  As a noun, it is a food that has been mashed into a smooth, thick consistency.</item>
+		<item>To Reduce a liquid is to boil it rapidly until the volume is decreased.  This results in a thicker liquid with a more intense flavor.</item>
+		<item>Roasting is a method of cooking in an oven at high temperature using an uncovered pan so that any juices evaporate. </item>
+		<item>To saute is to cook a dish in a skillet or frying pan with a small amount of oil over direct heat.</item>
+		<item>Scalding can refer to two different cooking methods: either heating a liquid until it reaches just below boiling point, or loosening the skin of a fruit by placing it into boiling water (see Blanch).</item>
+		<item>To Score a food is to make shallow cuts in the surface.  It can be done for flavor absorption, to tenderize meat, to allow fat to drain, or as decoration.</item>
+		<item>Seasoning usually refers to the process of adding herbs and spices to a dish in order to improve its flavor.</item>
+		<item>To Set a dish means to give it time to solidify.</item>
+		<item>To Shred an ingredient is to cut it into thin strips.</item>
+		<item>Sifting is the process of passing an ingredient through a fine mesh in order to remove lumps or foreign objects.</item>
+		<item>Simmering refers to cooking a liquid just under boiling point, as tiny bubbles begin to form and break the surface.</item>
+		<item>To Skim is to remove the top layer from a liquid.</item>
+		<item>Steaming is a method of cooking in which the dish is placed on a rack or steamer above boiling water.</item>
+		<item>Steeping is the method of soaking dry ingredients, such as coffee or tea, in liquid until their flavor is infused.</item>
+		<item>Stewing is a cooking method in which ingredients are covered in a liquid, then simmered slowly for a long period of time in a tightly covered pot.</item>
+		<item>Stir-frying is a method of quickly frying small pieces of food in a large pan or wok over very high heat while constantly stirring the dish.</item>
+		<item>Tossing is a method of thoroughly mixing a dish by turning its pieces over multiple times.  </item>
+		<item>Unleaven is a term describing baked goods baked without yeast. </item>
+		<item>Whipping refers to beating an ingredient, such as egg whites, until air is incorporated into it, making it light and fluffy.</item>
+		<item>A Whisk is an ingredient consisting of a number of thin wires running in a semicircular teardrop shape.  It is used primarily for whipping ingredients.</item>
+		<item>Zest refers to the colored portion of the outer skin of a citrus fruit.  The zest is often shaved off, as it contains oils that can add flavor to a dish.</item>
+	</string-array>
+</resources>

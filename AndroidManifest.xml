@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.Willshyre.KitchenCopilot"
+      android:versionName="3.0" android:versionCode="12">
+    <uses-sdk android:minSdkVersion="4" 
+              android:targetSdkVersion="7"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application android:icon="@drawable/kitchencopiloticon" android:label="Kitchen Copilot">
+	<activity android:name=".KitchenCopilot" android:launchMode="singleTop" android:label="Kitchen Copilot">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+      </activity>
+    <activity android:name="TabRunner" android:configChanges="orientation"></activity>
+    <activity android:name="TimerActivity" android:configChanges="orientation"></activity>
+    <activity android:name="OptionsActivity" android:configChanges="orientation"></activity>
+    <activity android:name="ConverterActivity" android:configChanges="orientation"></activity>
+    <activity android:name="RecipeActivity" android:configChanges="orientation"></activity>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.IngredientActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.SpiceActivity" android:configChanges="orientation"/>    
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.SpiceDisplayActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.FruitActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.FruitDisplayActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.VegetableActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.VegetableDisplayActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.TipsActivity" android:configChanges="orientation"/>
+    <activity android:name="com.Willshyre.KitchenCopilot.Ingredients.TipsDisplayActivity" android:configChanges="orientation"/>
+	<activity android:name="com.google.ads.AdActivity"
+              android:configChanges="screenSize|smallestScreenSize|keyboard|keyboardHidden|orientation|screenLayout|uiMode" 
+              />
+	
+		    </application>
+</manifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_gravity="fill|bottom|top" android:gravity="fill|bottom|top">
+    <ImageView android:layout_width="wrap_content" android:id="@+id/KitchenCopilotGoldIcon" android:layout_marginTop="10dip" android:src="@drawable/kitchencopilotgoldicon" android:gravity="center" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:layout_width="fill_parent" android:id="@+id/imageView1" android:src="@drawable/title" android:layout_marginTop="5dip" android:layout_height="wrap_content" android:layout_below="@+id/KitchenCopilotGoldIcon"/>
+
+    <RelativeLayout android:id="@+id/relativeLayout1" android:layout_width="fill_parent" android:gravity="center" android:layout_height="fill_parent" android:layout_below="@+id/imageView1" android:layout_alignLeft="@+id/imageView1" android:layout_alignRight="@+id/imageView1">
+        <ImageView android:layout_width="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" android:id="@+id/ssconverterbutton" android:cropToPadding="true" android:src="@drawable/convertglossy" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/ssconverterbutton" android:textStyle="bold" android:layout_width="wrap_content" android:layout_alignRight="@+id/ssconverterbutton" android:gravity="center" android:layout_alignLeft="@+id/ssconverterbutton" android:text="Convert" android:layout_height="wrap_content" android:id="@+id/textView1"/>
+
+        <ImageView android:layout_below="@+id/ssconverterbutton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:scaleType="fitStart" android:layout_alignRight="@+id/ssconverterbutton" android:adjustViewBounds="true" android:id="@+id/sstimerbutton" android:layout_alignLeft="@+id/ssconverterbutton" android:src="@drawable/timerglossy" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/sstimerbutton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignRight="@+id/sstimerbutton" android:gravity="center" android:layout_alignLeft="@+id/sstimerbutton" android:text="Timer" android:layout_height="wrap_content" android:id="@+id/textView3"/>
+
+        <ImageView android:layout_marginLeft="50dip" android:layout_alignBottom="@+id/ssconverterbutton" android:layout_width="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:id="@+id/ssguidebutton" android:layout_alignTop="@+id/ssconverterbutton" android:src="@drawable/guidebookglossy" android:layout_toRightOf="@+id/ssconverterbutton" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/ssguidebutton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignLeft="@+id/ssguidebutton" android:gravity="center" android:text="Guidebook" android:layout_height="wrap_content" android:id="@+id/textView2"/>
+
+        <ImageView android:layout_below="@+id/ssguidebutton" android:layout_width="wrap_content" android:layout_marginTop="50dip" android:layout_alignRight="@+id/ssguidebutton" android:adjustViewBounds="true" android:id="@+id/sssearchbutton" android:layout_alignLeft="@+id/ssguidebutton" android:src="@drawable/searchglossy" android:layout_height="wrap_content"/>
+        <TextView android:layout_below="@+id/sssearchbutton" android:layout_width="wrap_content" android:textStyle="bold" android:layout_alignRight="@+id/sssearchbutton" android:gravity="center" android:layout_alignLeft="@+id/sssearchbutton" android:text="Search" android:layout_height="wrap_content" android:id="@+id/textView4"/>
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>
